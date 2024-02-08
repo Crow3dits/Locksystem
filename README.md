@@ -30,6 +30,8 @@ Required
 - ox_lib
 - oxtarget
 - es_extended
+
+Be sure to start ox scripts before the locksystem
 ```
 ## Add this item to your: ox_inventory/data/items.lua
 ['carkeys'] = {
