@@ -1,3 +1,4 @@
+```
 Config = {
     LockingRange = 5.0,
     CycleVehicleClass = 13,
@@ -77,11 +78,4 @@ function NotifiServ(src, data)
         TriggerClientEvent('esx:showNotification', src, data.text, "success", 3000)
     end
 end
-
-function PlateEqual(valueA, valueB)
-    valueA = tostring(valueA)
-    valueB = tostring(valueB)
-    valueA = valueA:gsub("%s", ""):lower()
-    valueB = valueB:gsub("%s", ""):lower()
-    return valueA == valueB
-end
+```
